@@ -7,16 +7,16 @@ SELECT COUNT(customer_id) FROM customer;
 SELECT customer_id, first_name, last_name, email FROM customer ;
 
 SELECT customer_id, first_name, last_name, email FROM customer 
-WHERE first_name LIKE 'V%';
+WHERE first_name LIKE 'S%';
 
 SELECT customer_id, first_name, last_name, email FROM customer 
-WHERE first_name = 'Vijaya';
+WHERE first_name = 'Suchindra';
 
 SELECT customer_id, first_name, last_name, email FROM customer 
-WHERE first_name IN ('Vijaya', 'Nandini');
+WHERE first_name IN ('Suchindra', 'Prasad');
 
 SELECT customer_id, first_name, last_name, email FROM customer 
-WHERE first_name IN ('Victor', 'Vijaya');
+WHERE first_name IN ('Victor', 'Prasad');
 
 
 --- LIKE
